@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <div class="container-nav">
-            <nav class="navbar" role="navigations">
-                <a href="#" class="brand">Mi página web</a>
+        <header class="container-nav">
+            <nav class="navbar" role="navigation">
+                <a href="index.html" class="brand">Mi página web</a>
                 <ul class="nav-links">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
@@ -17,8 +17,8 @@
                 </ul>
             </nav>
             <button class="button-menu-toggle">Menu</button>
-        </div>
-        <div class="container">
+        </header>
+        <main class="container">
             <h1>Contacto</h1>
             <p>¡Contáctanos para cualquier consulta o solicitud de información!</p>
             <form action="" id="myForm">
@@ -26,7 +26,11 @@
                 <input type="email" id="email" name="email">
                 <button type="submit">Enviar</button>
             </form>
-        </div>
-    <script src="script.js"></script>
+        </main>
+        <footer>
+        <p>Hasta aquí llega la página principal</p>    
+        <button onclick="showAlert()" aria-label="Haz clic en mí">Haz click en mí!</button>
+        </footer>
+        <script src="script.js"></script>
     </body>
 </html>
